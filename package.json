@@ -1,0 +1,29 @@
+{
+  "name": "semantic-release-test",
+  "version": "0.0.0-development",
+  "description": "Testing the semantic-release package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguel-osuna/semantic-release-test.git"
+  },
+  "keywords": [
+    "semantic",
+    "release"
+  ],
+  "author": "miguel-osuna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguel-osuna/semantic-release-test/issues"
+  },
+  "homepage": "https://github.com/miguel-osuna/semantic-release-test#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^20.1.0"
+  }
+}
