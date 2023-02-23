@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-test",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Testing the semantic-release package",
   "main": "index.js",
   "scripts": {
