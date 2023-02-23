@@ -1,21 +1,11 @@
 {
-    "branches": ["master"],
-    "plugins": [
-        [
-            "@semantic-release/commit-analyzer", {
-                "preset": "angular",
-                "releaseRules": [
-                    {"type": "docs", "release": "patch"},
-                    {"type": "chore", "release": "patch"},
-                    {"type": "style", "release": "patch"},
-                    {"type": "refactor", "release": "patch"}                
-                ]
-            }
-        ],
-        "@semantic-release/release-notes-generator",
-        "@semantic-release/changelog",
-        "@semantic-release/npm",
-        "@semantic-release/git",
-        "@semantic-release/github"
-    ]
+  "branches": ["master"],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    "@semantic-release/git",
+    "@semantic-release/github"
+  ]
 }
